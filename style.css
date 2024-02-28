@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#note {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #fedfe5;
+  align-items: center;
+  gap: 6px;
+  height: 50px;
+  font-family: Open Sans, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol,
+    "Noto Color Emoji";
+}
+#note > button {
+  padding: 10px 12px;
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+#note > div {
+  font-size: 16px;
+  font-weight: 500;
+}
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+  background-color: #f3f3f3;
+  font-family: Open Sans, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol,
+    "Noto Color Emoji";
+  background-color: #ffffff;
+  box-shadow: 0px 0px 1px;
+  /* border-bottom: 0.1px solid rgba(0, 0, 0, 0.1);/ */
+  z-index: 2;
+  border: none;
+}
+#logo {
+  font-size: 30px;
+  font-weight: 500;
+  color: #000;
+}
+#header-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  height: 80px;
+}
+#header-content > div {
+  font-size: 12px;
+  margin-top: 10px;
+  padding: 8px;
+}
+#header-buttons > button {
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* gap: 0px; */
+  font-size: 12px;
+  margin-top: 10px;
+}
+#header-refer {
+  padding: 16px 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #e5feff;
+  color: #7075cd;
+}
+#header-signup {
+  padding: 13px 16px;
+  border-radius: 10px;
+  margin: 10px;
+  border: 1px solid #ec0531;
+  color: #ec0531;
+  background-color: #ffffff;
+}
+#center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-top: 10px;
+  font-family: Open Sans, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol,
+    "Noto Color Emoji";
+}
+#center-content-discription {
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  font-weight: 600;
+}
+#center-content-discription-line2 {
+  color: #ec0531;
+  padding-left: 10px;
+}
+#center-content-courses {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-top: 20px;
+}
+#center-content-courses > div {
+  height: 500px;
+  width: 350px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  font-family: Open Sans, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol,
+    "Noto Color Emoji";
+  /* border: 1px solid rgba(0, 0, 0, 0.1); */
+  border: none;
+  box-shadow: 0px 0px 1px;
+}
+
+#center-content-heading {
+  font-size: 48px;
+  font-weight: 700;
+}
+#img-bg-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #b6b9e5;
+  height: 160px;
+  border-radius: 15px 15px 0px 0px;
+}
+#full-stack-img {
+  width: 25%;
+  margin: 0px 70px;
+}
+#full-stack-heading {
+  font-size: 16px;
+  font-weight: 600;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+#full-stack-elgble {
+  font-size: 12px;
+  padding: 10px 20px;
+  padding-right: 40px;
+  background-color: #f7f7ff;
+  border-radius: 50px;
+  border: 1px solid #7075cd;
+  margin: 10px 15px;
+  line-height: 20px;
+  font-weight: 600;
+}
+hr {
+  margin: 0px 10px;
+}
+.full-stack-discrip {
+  font-size: 12px;
+  padding: 8px 20px;
+  font-weight: 600;
+}
+#full-stack-viwe {
+  padding: 15px 113px;
+  font-size: 12px;
+  margin: 15px 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ec0531;
+  color: #ffffff;
+}
+#img-bg-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #e5c9b8;
+  height: 160px;
+  border-radius: 15px 15px 0px 0px;
+}
+#backend-img {
+  width: 25%;
+  margin: 0px 70px;
+}
+#backend-heading {
+  font-size: 16px;
+  font-weight: 600;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+#backend-elgble {
+  font-size: 12px;
+  padding: 10px 20px;
+  padding-right: 40px;
+  background-color: #f7f7ff;
+  border-radius: 50px;
+  border: 1px solid #7075cd;
+  margin: 10px 15px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.backend-discrip {
+  font-size: 12px;
+  padding: 8px 20px;
+  font-weight: 600;
+}
+#backend-viwe {
+  padding: 15px 113px;
+  font-size: 12px;
+  margin: 15px 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ec0531;
+  color: #ffffff;
+}
+#center-content-courses-box1 > div > i {
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
+  height: 15px;
+  width: 15px;
+  border: none !important;
+  border-radius: 50px;
+  background-color: #eefff7;
+  color: #6fcd9e;
+  padding: 2px 2px;
+  margin-right: 10px;
+}
+#center-content-courses-box1 > i {
+  height: 15px;
+  width: 15px;
+  border: none !important;
+  border-radius: 50px;
+  background-color: #eefff7;
+  color: #6fcd9e;
+  padding: 2px 2px;
+  margin-right: 10px;
+  position: absolute;
+  font-size: 13px;
+  left: 315px;
+  top: 600px;
+}
+#full-stack-discrip {
+  padding-left: 45px;
+}
+#center-content-courses-box2 > div > i {
+  height: 15px;
+  width: 15px;
+  border: none !important;
+  border-radius: 50px;
+  background-color: #eefff7;
+  color: #6fcd9e;
+  padding: 2px 2px;
+  margin-right: 10px;
+}
+#center-content-courses-box2 > i {
+  height: 15px;
+  width: 15px;
+  border: none !important;
+  border-radius: 50px;
+  background-color: #eefff7;
+  color: #6fcd9e;
+  padding: 2px 2px;
+  margin-right: 10px;
+  position: absolute;
+  font-size: 13px;
+  left: 685px;
+  top: 600px;
+}
+#backend-discrip {
+  padding-left: 45px;
+}
+#center-content-courses-box2 > div > b {
+  font-weight: 800;
+}
+#center-content-courses-box1 > div > b {
+  font-weight: 800;
+}
