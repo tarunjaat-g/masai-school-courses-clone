@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>test2</title>
+    <script
+      src="https://kit.fontawesome.com/5f1551d981.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+  </head>
+  <body>
+    <div>
+      <div id="header">
+        <div id="logo"><i class="fa-solid fa-heart"></i></div>
+        <div id="header-cantent">
+          <div>Find Jobs</div>
+          <div>Request Referrals</div>
+          <div>Referral Marketplace</div>
+          <div>Resume Tools</div>
+          <div>Pricing</div>
+        </div>
+        <div id="header-button">
+          <div id="header-sign-in">Sign in</div>
+          <div id="header-sign-up">Sign up</div>
+        </div>
+        <div onclick="sidebaropen()">
+        <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+      <div id="marketplace">
+        <div id="marketplace-text">
+          Weve made it even easier to reter qualinea candidates to your company
+          win the referral marketplace  🎉
+        </div>
+        <div id="marketplace-button">VIew marketplace</div>
+      </div>
+      <div id="center-content">
+        <div id="refer">
+          <div id="job-Refer">Job referrals.</div>
+          <div id="job-hunt">Your secret weapon for job hunting.</div>
+          <div id="get-refer">Get referred into your dream job today.</div>
+          <div id="refer-button">
+            <div id="get-refer-button">Get Referred</div>
+            <div id="give-refer-buton">Give Referrals</div>
+          </div>
+        </div>
+        <div id="compney">
+          <div>
+            <div class="comp-logo"><img src="../../img/amazon.jpeg" alt=""></div>
+            <div class="comp-text">Someone at <b>Amazon </b>wants to refer you.</div>
+          </div>
+          <div>
+            <div class="comp-logo"><img src="../../img/microsoft.png" alt=""></div>
+            <div class="comp-text">You've been referred into <b>Microsoft</b> 🎉</div>
+          </div>
+          <div>
+            <div class="comp-logo"><img src="../../img/tesla.png" alt=""></div>
+            <div class="comp-text">Someone at <b>Tesla</b> wants to refer you.</div>
+          </div>
+          <div>
+            <div class="comp-logo"><img src="../../img/morganstanley.png" alt=""></div>
+            <div class="comp-text">You've been referred into <b>Morgan Stanley</b> 🎉</div>
+          </div>
+          <div>
+            <div class="comp-logo"><img src="../../img/disney.jpeg" alt=""></div>
+            <div class="comp-text">Someone at <b>Disney</b> wants to refer you.</div>
+          </div>
+        </div>
+      </div>
+      <div id="sidebar"  class="sidebar">
+        <a href="">Find Jobs</a><hr>
+        <a href="">Referral Marketplace</a><hr>
+        <a href="">Request Referrals</a><hr>
+        <a href="">Resume Tools</a><hr>
+        <a href="">Pricing</a>
+      </div>
+    </div>
+    <script>
+      function sidebaropen() {
+        document.querySelector("#sidebar").classList.toggle('viwe');
+    }
+    
+        window.addEventListener('scroll', function(){
+          document.querySelector('#header').classList.toggle('fix',window.scrollY > 10);
+        })
+    </script>
+  </body>
+</html>
